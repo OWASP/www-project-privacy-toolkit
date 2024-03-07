@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: OWASP Privacy Toolki
+title: OWASP Privacy Toolkit
 tags: example-tag
 level: 2
 type: 
