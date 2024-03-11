@@ -9,7 +9,6 @@ pitch: A browser plugin for users' Privacy
 
 ---
 
-# OWASP Privacy Toolking
 
 The OWASP Privacy toolkit represents a pioneering endeavor within the realm of online security. Designed as a browser extension, it caters to a diverse audience comprising end-users and auditors alike. Its primary objective is to foster heightened awareness regarding privacy concerns while also furnishing comprehensive reports on pertinent browsing activities.
 
@@ -22,7 +21,7 @@ We are working on 3 possible scenarios:
 - The Application stores data in globally storage (Eg localStorage, sessionStorage … )
 - Web applications may receive/send too many information unnecessary to the app purposes.
 
-Pattern Identification Approach:
+**Pattern Identification Approach:**
 - Listing all user-defined variables in the DOM.
 - Extracting all data for analysis.
 - Inferring or requesting sensitive data categorization (e.g., Personal Identifiable Information - PII) using regular expressions.
@@ -68,16 +67,17 @@ Post-Launch:
 
 This plan ensures that the development and evolution of the OWASP BCPrivacy plugin are driven by user feedback and the changing dynamics of online security, ensuring its relevance and effectiveness for its intended audience.
 
-## User Benefits:
-Enhanced Privacy: Users gain increased control and visibility over their personal and sensitive data while browsing, reducing the risk of unauthorized access and potential data breaches.
+## User Benefits
 
-Informed Browsing: End-users and auditors receive detailed reports on browsing activities, helping to identify and mitigate privacy risks in real-time.
+- **Enhanced Privacy:** Users gain increased control and visibility over their personal and sensitive data while browsing, reducing the risk of unauthorized access and potential data breaches.
 
-Proactive Protection: By identifying and addressing potential vulnerabilities related to data storage and exchange, users can proactively safeguard their information against emerging threats.
+- **Informed Browsing:** End-users and auditors receive detailed reports on browsing activities, helping to identify and mitigate privacy risks in real-time.
 
-Educational Insight: The toolkit educates users about data privacy, encouraging safer browsing habits and better understanding of online privacy challenges.
+- **Proactive Protection:** By identifying and addressing potential vulnerabilities related to data storage and exchange, users can proactively safeguard their information against emerging threats.
 
-Customized Security: The ability to categorize and monitor sensitive data according to user-defined parameters allows for personalized privacy protection that aligns with individual security needs.
+- **Educational Insight:** The toolkit educates users about data privacy, encouraging safer browsing habits and better understanding of online privacy challenges.
+
+- **Customized Security:** The ability to categorize and monitor sensitive data according to user-defined parameters allows for personalized privacy protection that aligns with individual security needs.
 
 ## Next Talk: OWASP Italy at Security Summit in Milan
 [Martino Lessio](https://securitysummit.it/milano-2024/seminario-owasp) will talk about the project next 21st March, 2024 <br>
