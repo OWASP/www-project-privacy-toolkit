@@ -5,18 +5,106 @@ title: OWASP Privacy Toolkit
 tags: example-tag
 level: 2
 type: 
-pitch: A very brief, one-line description of your project
+pitch: A browser plugin for users' Privacy
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+# OWASP Privacy Toolking
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+The OWASP Privacy toolkit represents a pioneering endeavor within the realm of online security. Designed as a browser extension, it caters to a diverse audience comprising end-users and auditors alike. Its primary objective is to foster heightened awareness regarding privacy concerns while also furnishing comprehensive reports on pertinent browsing activities.
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+## Objectives
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+The problem we want to solve: Unauthorized code such as 3rd Party JS accessing sensitive information might affect its confidentiality and integrity.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 3.5 - Production, 4 - Flagship)
+We are working on 3 possible scenarios: 
+- The Application stores data in globally accessible variables.(e.g. global, document, etc) 
+- The Application stores data in globally storage (Eg localStorage, sessionStorage … )
+- Web applications may receive/send too many information unnecessary to the app purposes.
 
-type: code, documentation, or other
+Pattern Identification Approach:
+- Listing all user-defined variables in the DOM.
+- Extracting all data for analysis.
+- Inferring or requesting sensitive data categorization (e.g., Personal Identifiable Information - PII) using regular expressions.
+- Listing all sensitive data accessible to arbitrary code.
+- Hooking the storage API with the Proxy pattern to monitor access and modifications.
+- Identifying and hooking JSON deserialization APIs to track data flow.
+- Hooking/Proxying object data getters/setters to control data access.
+- Correlating received data with used data to identify unnecessary data exchanges (e.g., data tainting or I/O correlation).
+
+## Project roadmap
+
+June 2024: Launch of First Version
+- Pre-Launch Preparation:
+-- Finalize the development and testing of the first version of the plugin.
+-- Prepare comprehensive documentation and user guides.
+
+Launch Activities:
+- Officially release the first version of the OWASP Privacy plugin.
+- Engage with online security communities, forums, and social media to spread awareness.
+- July 2024 - January 2025: Feedback Gathering and Iteration
+- Feedback Collection:
+-- Monitor online forums and social media for unsolicited feedback and discussions.
+- Analysis and Planning:
+-- Regularly review the feedback to identify common issues, desired features, and areas for improvement.
+- Iterative Development:
+-- Engage with the community through blog posts or forums to keep them updated on progress and upcoming features.
+
+February 2025: Launch of Version 2
+- Pre-Launch Preparation for V2:
+- Finalize the development and testing of the second version, incorporating user feedback and new functionalities.
+- Update documentation and user guides to reflect the new features and improvements.
+
+V2 Launch Activities:
+-- Release the second version of the OWASP BCPrivacy plugin.
+-- Organize a webinar or online event to showcase the new features and improvements, highlighting how user feedback has been instrumental in shaping this version.
+
+Post-Launch:
+- Continue the cycle of feedback collection, analysis, and iterative development for future versions.
+- Plan for regular updates and feature releases to keep the plugin relevant and useful for the community.
+- Continuous Engagement and Improvement
+- Maintain open channels of communication with the user community for ongoing feedback and support.
+- Monitor the cybersecurity landscape for emerging threats and adapt the plugin accordingly to address new challenges.
+
+This plan ensures that the development and evolution of the OWASP BCPrivacy plugin are driven by user feedback and the changing dynamics of online security, ensuring its relevance and effectiveness for its intended audience.
+
+## User Benefits:
+Enhanced Privacy: Users gain increased control and visibility over their personal and sensitive data while browsing, reducing the risk of unauthorized access and potential data breaches.
+
+Informed Browsing: End-users and auditors receive detailed reports on browsing activities, helping to identify and mitigate privacy risks in real-time.
+
+Proactive Protection: By identifying and addressing potential vulnerabilities related to data storage and exchange, users can proactively safeguard their information against emerging threats.
+
+Educational Insight: The toolkit educates users about data privacy, encouraging safer browsing habits and better understanding of online privacy challenges.
+
+Customized Security: The ability to categorize and monitor sensitive data according to user-defined parameters allows for personalized privacy protection that aligns with individual security needs.
+
+## Next Talk: OWASP Italy at Security Summit in Milan
+[Martino Lessio](https://securitysummit.it/milano-2024/seminario-owasp) will talk about the project next 21st March, 2024 <br>
+When: 21st March 2024 Sala ASIA A - 2.00-2.40 PM <br>
+Where: Milan, Italy <br>
+<br>
+
+## Publications
+To see the complete list of publications, please visit [https://testable.eu/publications/](https://testable.eu/publications/).
+
+## Project partners
+
+- [CISPA](https://cispa.de/)
+- [Eurecom](https://www.eurecom.fr/en/)
+- [Technical University of Braunschweig](https://www.tu-braunschweig.de/)
+- [UC3M](https://www.uc3m.es/)
+- [SAP SE](https://www.sap.com/)
+- [ShiftLeft](https://www.shiftleft.io/)
+- [IMQ Minded Security](https://mindedsecurity.com/)
+- [NortonLifeLock](https://www.nortonlifelock.com/)
+- [Pluribus One](https://www.pluribus-one.it/)
+
+## Acknowledgements
+
+This project received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No. 101019206.
+
+<br>
+<p align="center">
+<a href="https://testable.eu"><img src="https://owasp.org/www-project-testability-patterns-for-web-applications/assets/images/eu_flag.png" alt="EU Flag"/></a>
+</p>
