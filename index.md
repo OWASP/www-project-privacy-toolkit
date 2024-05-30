@@ -98,7 +98,8 @@ Where: Lisbon, Portugal <br>
    <img src="https://github.com/OWASP/www-project-privacy-toolkit/blob/b7ca58f1dcc2a5c6c2d3b0b16d6919bc4896f69c/assets/images/MArtinoSecSummit24.jpeg?raw=true" width=600/> 
 </p>
 
-  [You can view the slide here](https://github.com/OWASP/www-project-privacy-toolkit/blob/b168e612b7bc452f1bd8c65fb1af655d461ac5e8/assets/images/Martino%20Lessio%20-%20OWASP%40SecSummit%202024-03-21.pdf) 
+
+  [You can download the slide here](https://github.com/OWASP/www-project-privacy-toolkit/blob/b168e612b7bc452f1bd8c65fb1af655d461ac5e8/assets/images/Martino%20Lessio%20-%20OWASP%40SecSummit%202024-03-21.pdf) 
 
 
 ## Publications
