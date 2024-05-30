@@ -82,7 +82,7 @@ This plan ensures that the development and evolution of the OWASP BCPrivacy plug
 ## Next Talk: OWASP AppSec Lisbon!
 
 <p align="center">
-   <img src="https://github.com/OWASP/www-project-privacy-toolkit/blob/a9c0bdac84c35120e02917ab944c66b95ca09044/assets/images/Lisbon%20Logo.png?raw=true" width=400/> 
+   <img src="https://github.com/OWASP/www-project-privacy-toolkit/blob/a9c0bdac84c35120e02917ab944c66b95ca09044/assets/images/Lisbon%20Logo.png?raw=true" width=600/> 
 </p>
 
 [Martino Lessio and Stefano Di Paola ](https://owaspglobalappseclisbon2024.sched.com/event/1VdCN/owasp-privacy-toolkit-bringing-privacy-awareness-in-the-digital-age) will talk about the project next 27th June, 2024 <br>
@@ -95,7 +95,7 @@ Where: Lisbon, Portugal <br>
 <br>
 
 <p align="center">
-   <img src="https://github.com/OWASP/www-project-privacy-toolkit/blob/b7ca58f1dcc2a5c6c2d3b0b16d6919bc4896f69c/assets/images/MArtinoSecSummit24.jpeg?raw=true" width=400/> 
+   <img src="https://github.com/OWASP/www-project-privacy-toolkit/blob/b7ca58f1dcc2a5c6c2d3b0b16d6919bc4896f69c/assets/images/MArtinoSecSummit24.jpeg?raw=true" width=600/> 
 </p>
 
 
