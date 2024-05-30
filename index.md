@@ -91,8 +91,13 @@ Where: Lisbon, Portugal <br>
 <br>
 
 ## Past Talk: OWASP Italy at Security Summit in Milan
-[Martino Lessio](https://securitysummit.it/milano-2024/seminario-owasp) did talk about the project last 21st March, 2024 <br>
+[Martino Lessio](https://securitysummit.it/milano-2024/seminario-owasp) did a talk about the project last 21st March, 2024 <br>
 <br>
+
+<p align="center">
+   <img src="https://github.com/OWASP/www-project-privacy-toolkit/blob/b7ca58f1dcc2a5c6c2d3b0b16d6919bc4896f69c/assets/images/MArtinoSecSummit24.jpeg?raw=true" width=400/> 
+</p>
+
 
 ## Publications
 To see the complete list of publications, please visit [https://testable.eu/publications/](https://testable.eu/publications/).
