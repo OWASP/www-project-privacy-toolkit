@@ -33,7 +33,7 @@ We are working on 3 possible scenarios:
 
 ## Project roadmap
 
-June 2024: Launch of First Version
+June 2024: Launch of First Version at the OWASP AppSec Lisbon!
 - Pre-Launch Preparation:
 -- Finalize the development and testing of the first version of the plugin.
 -- Prepare comprehensive documentation and user guides.
@@ -79,10 +79,14 @@ This plan ensures that the development and evolution of the OWASP BCPrivacy plug
 
 - **Customized Security:** The ability to categorize and monitor sensitive data according to user-defined parameters allows for personalized privacy protection that aligns with individual security needs.
 
-## Next Talk: OWASP Italy at Security Summit in Milan
-[Martino Lessio](https://securitysummit.it/milano-2024/seminario-owasp) will talk about the project next 21st March, 2024 <br>
-When: 21st March 2024 Sala ASIA A - 2.00-2.40 PM <br>
-Where: Milan, Italy <br>
+## Next Talk: OWASP AppSec Lisbon!
+[Martino Lessio and Stefano Di Paola ](https://owaspglobalappseclisbon2024.sched.com/event/1VdCN/owasp-privacy-toolkit-bringing-privacy-awareness-in-the-digital-age) will talk about the project next 27th June, 2024 <br>
+When: 27th June, 2024  WEST- 1.15-2.00 PM <br>
+Where: Lisbon, Portugal <br>
+<br>
+
+## Past Talk: OWASP Italy at Security Summit in Milan
+[Martino Lessio](https://securitysummit.it/milano-2024/seminario-owasp) did talk about the project last 21st March, 2024 <br>
 <br>
 
 ## Publications
