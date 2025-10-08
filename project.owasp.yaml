@@ -1,0 +1,20 @@
+audience:
+  - breaker
+  - builder
+leaders:
+  - name: Martino Lessio
+    email: martino.lessio@owasp.org
+    github: mlessio
+level: 2
+name: OWASP Privacy Toolkit
+pitch: A browser plugin for users' Privacy
+repositories:
+  - name: www-project-privacy-toolkit
+    url: https://github.com/OWASP/www-project-privacy-toolkit
+    description: OWASP Foundation Web Repository
+tags:
+  - example-tag
+  - custom-tag-1
+  - custom-tag-2
+type: tool
+website: https://owasp.org/www-project-privacy-toolkit
